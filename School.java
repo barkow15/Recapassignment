@@ -11,16 +11,21 @@ public class School implements ISchool{
 
     public School(String name){
         this.Name = name;
-        this.Courses = new ArrayList<>();
+        this.Courses  = new ArrayList<>();
         this.Students = new Hashtable<String,Student>();
     }
     @Override
     public void createCourse(String name) {
         int courseID = 1;
+        List<Course> courses = this.Courses;
 
         // If List of courses is not empty get the size og the List and add 1 so the ID is autoincremented
         if(!this.Courses.isEmpty()){
-            courseID = this.Courses.size() + 1;
+            // Get the ID of the last course in the ArrayList
+            courseID = courses.get((courses.size()) -1).getID();
+
+            // Increment by 1
+            courseID = courseID + 1;
         }
         Course c = new Course(courseID, name);
 
