@@ -1,6 +1,7 @@
-public class Teacher extends Person{
+public class Teacher {
     private int ID;
-    private String Department;
-    private int Salary;
-    private int WeeklyWorkingHours;
+    private String Firstname;
+    private String Lastname;
+    private String Phonenumber;
+    private String Email;
 }
