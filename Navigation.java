@@ -73,6 +73,7 @@ public class Navigation {
         System.out.println("1. Vis kurser");
         System.out.println("2. Opret kursus");
         System.out.println("3. Slet kursus");
+        System.out.println("4. Slet kursus");
         System.out.println("9. Afslut programmet");
     }
 
