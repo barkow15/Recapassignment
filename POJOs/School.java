@@ -1,10 +1,11 @@
-import javax.lang.model.element.Name;
+package POJOs;
+
 import java.util.ArrayList;
 import java.util.Dictionary;
 import java.util.Hashtable;
 import java.util.List;
 
-public class School implements ISchool{
+public class School implements ISchool {
     private String       Name;
     private List<Course> Courses;
     private Dictionary   Students;

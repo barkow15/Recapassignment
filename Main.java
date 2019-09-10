@@ -1,3 +1,6 @@
+import POJOs.School;
+import POJOs.Student;
+
 public class Main{
     public static void main(String[] args){
         School kea = new School("KEA");

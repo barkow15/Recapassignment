@@ -1,3 +1,5 @@
+package POJOs;
+
 public class Course {
     private int ID;
     private String Name;

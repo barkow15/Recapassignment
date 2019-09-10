@@ -1,10 +1,13 @@
+import POJOs.Course;
+import POJOs.School;
+
 import java.util.Scanner;
 
 public class Navigation {
     // True hvis systemet kører og false hvis det er slukket
     private boolean RunStatus;
     private Scanner SC;
-    private School School;
+    private POJOs.School School;
 
     public Navigation(School school){
         this.RunStatus = true;
